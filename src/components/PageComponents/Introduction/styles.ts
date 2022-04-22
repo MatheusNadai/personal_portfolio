@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 1120px;
@@ -13,7 +13,7 @@ export const Container = styled.div`
     font-size: 1.7rem;
     font-weight: 700;
     b {
-      color: ${(props) => props.theme.colors.yellow};
+      color: ${props => props.theme.colors.yellow};
       text-decoration: underline;
     }
   }
@@ -35,14 +35,29 @@ export const Container = styled.div`
     width: 100%;
     align-items: center;
     gap: 2rem;
+    margin: 4rem 0;
     .information {
       display: flex;
       flex: 1;
       width: 100%;
       background-color: rgba(0, 0, 0, 0.25);
       border-radius: 10px;
+      padding: 1.5rem;
+      div {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
       p {
-        color: ${(props) => props.theme.colors.yellow};
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: ${props => props.theme.colors.yellow};
+      }
+      span {
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
       }
     }
   }
