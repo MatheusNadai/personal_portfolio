@@ -1,5 +1,5 @@
-import { ButtonHTMLAttributes } from "react";
-import { ButtonWrapper } from "./styles";
+import { ButtonHTMLAttributes } from 'react';
+import { ButtonWrapper } from './styles';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   isAlternative?: boolean;
