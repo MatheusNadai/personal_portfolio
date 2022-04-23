@@ -7,9 +7,9 @@ export const Container = styled.div`
   flex: 1;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
-  gap: 10rem;
+  gap: 8rem;
   span {
     font-size: 2rem;
     font-weight: 700;
@@ -19,9 +19,9 @@ export const Container = styled.div`
   }
   p.description-skills {
     line-height: 2rem;
-    margin-bottom: 5.8rem;
+    margin-bottom: 2.5rem;
     display: flex;
-    max-width: 580px;
+    max-width: 620px;
   }
   .my-skills {
     height: 1rem;
@@ -40,18 +40,29 @@ export const Container = styled.div`
     }
   }
   .container-squares {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(auto, 100px);
+    align-items: flex-start;
+    gap: 1.5rem;
     .square {
       background: rgba(255, 255, 255, 0.08);
       padding: 1rem;
       display: flex;
       border-radius: 12px;
+      position: relative;
+      top: 0;
+      transition: top ease 0.5s;
       img {
         width: 50px;
         height: 50px;
       }
+    }
+    .square:hover {
+      top: -15px;
+    }
+    .next-js {
+      background: #fff;
     }
   }
 `;

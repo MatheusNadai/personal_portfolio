@@ -19,6 +19,7 @@ export default function Skills(): JSX.Element {
           Para desenvolver aplicações que atendam todas as necessidades do
           cliente, uso as seguintes técnologias
         </p>
+        <Button style={{ width: '10rem' }}>Fale comigo</Button>
       </div>
       <div className="container-squares">
         <div className="square">
@@ -63,7 +64,17 @@ export default function Skills(): JSX.Element {
         </div>
         <div className="square">
           <img
+            className="next-js"
             src="/nextjs-logo.png"
+            alt="Representação de logo da técnologia"
+          />
+        </div>
+        <div className="square">
+          <img src="/logo-git.svg" alt="Representação de logo da técnologia" />
+        </div>
+        <div className="square">
+          <img
+            src="/logo-github.svg"
             alt="Representação de logo da técnologia"
           />
         </div>

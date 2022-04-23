@@ -11,7 +11,7 @@ export const Container = styled.div`
   flex-direction: row;
   gap: 10rem;
   div {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
     span {
@@ -27,7 +27,9 @@ export const Container = styled.div`
       border-radius: 24px;
       display: flex;
       align-items: center;
+      justify-content: center;
       margin-bottom: 0.5rem;
+
       p {
         color: ${props => props.theme.colors.yellow};
         font-weight: 700;
