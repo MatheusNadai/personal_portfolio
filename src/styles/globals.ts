@@ -26,6 +26,17 @@ const GlobalStyles = createGlobalStyle`
     background: ${props => props.theme.colors.primary};
     color: ${props => props.theme.colors.white};
   }
+  body::-webkit-scrollbar{
+    width: 12px;
+  }
+  body::-webkit-scrollbar-track{
+    background: ${props => props.theme.colors.primary};
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color:#000;
+    border-radius: 10px ;
+
+  }
   body, input, textarea, select, button {
   font: 400 1rem ${props => props.theme.font.primary};
 }

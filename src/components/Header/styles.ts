@@ -17,6 +17,7 @@ export const HeaderContainer = styled.header`
       font-family: ${props => props.theme.font.primary};
       font-size: 1.1rem;
       font-weight: 700;
+      cursor: pointer;
     }
   }
 `;
