@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 1120px;
-  margin: 6rem 4rem;
-  padding: 0 2rem;
+  margin: 0 4rem;
+  padding: 4rem 2rem;
   flex: 1;
   display: flex;
   justify-content: space-between;

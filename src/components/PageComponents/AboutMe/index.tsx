@@ -9,12 +9,9 @@ import Button from '../../Button';
 
 export default function AboutMe(): JSX.Element {
   return (
-    <Container>
+    <Container id="about">
       <Slide left>
-        <img
-          src="/foto_perfilcerta.png"
-          alt="Representação em forma de avatar"
-        />
+        <img src="/animation_1.png" alt="Imagens" />
         <div>
           <div className="whoiam">
             <p>WHO I AM</p>

@@ -9,7 +9,7 @@ import Button from '../../Button';
 
 export default function Skills(): JSX.Element {
   return (
-    <Container>
+    <Container id="skills">
       <div>
         <div className="my-skills">
           <p>MY SKILLS</p>

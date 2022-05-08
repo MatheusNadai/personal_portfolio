@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -23,11 +23,11 @@ const GlobalStyles = createGlobalStyle`
     cursor: pointer;
   }
   body {
-    background: ${(props) => props.theme.colors.primary};
-    color: ${(props) => props.theme.colors.white};
+    background: ${props => props.theme.colors.primary};
+    color: ${props => props.theme.colors.white};
   }
   body, input, textarea, select, button {
-  font: 400 1rem ${(props) => props.theme.font.primary};
+  font: 400 1rem ${props => props.theme.font.primary};
 }
 `;
 
