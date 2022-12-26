@@ -35,13 +35,13 @@ export default function Header(): JSX.Element {
         >
           Skills
         </a>
-        <a
+        {/* <a
           href="#portfolio"
           onClick={() => setSelected('portfolio')}
           style={{ color: selected === 'portfolio' ? '#FFB742' : '#fff' }}
         >
           Portfólio
-        </a>
+        </a> */}
       </div>
       <Button>Fale comigo</Button>
     </HeaderContainer>

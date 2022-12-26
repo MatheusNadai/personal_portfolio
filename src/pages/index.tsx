@@ -14,7 +14,7 @@ const Home: NextPage = () => (
     <Introduction />
     <AboutMe />
     <Skills />
-    <Works />
+    {/* <Works /> */}
     <Footer />
   </>
 );
