@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   max-width: 1120px;
   margin: 7.5rem auto 7rem auto;
+  padding: 0 2rem;
   flex: 1;
   display: flex;
   justify-content: center;

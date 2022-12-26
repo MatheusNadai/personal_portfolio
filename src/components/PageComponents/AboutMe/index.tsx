@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import Link from 'next/link';
