@@ -17,6 +17,9 @@ export const HeaderContainer = styled.header`
       font-size: 1.1rem;
       font-weight: 700;
       cursor: pointer;
+      &:hover {
+        color: #ffb742 !important;
+      }
     }
   }
 `;

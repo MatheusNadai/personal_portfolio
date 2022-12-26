@@ -43,7 +43,16 @@ export default function Header(): JSX.Element {
           Portfólio
         </a> */}
       </div>
-      <Button>Fale comigo</Button>
+      <Button
+        onClick={() =>
+          window.open(
+            'https://www.linkedin.com/in/matheus-de-nadai-a63519211/',
+            '_ blank',
+          )
+        }
+      >
+        Talk to me
+      </Button>
     </HeaderContainer>
   );
 }

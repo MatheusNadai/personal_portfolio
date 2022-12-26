@@ -14,12 +14,22 @@ export default function Skills(): JSX.Element {
         <div className="my-skills">
           <p>MY SKILLS</p>
         </div>
-        <span>Quais são as skills que utilizo para programar?</span>
+        <span>What skills do I use to program?</span>
         <p className="description-skills">
-          Para desenvolver aplicações que atendam todas as necessidades do
-          cliente, uso as seguintes técnologias
+          To develop applications that meet all the needs of the customer, I use
+          the following technologies
         </p>
-        <Button style={{ width: '10rem' }}>Fale comigo</Button>
+        <Button
+          onClick={() =>
+            window.open(
+              'https://www.linkedin.com/in/matheus-de-nadai-a63519211/',
+              '_ blank',
+            )
+          }
+          style={{ width: '10rem' }}
+        >
+          Talk to me
+        </Button>
       </div>
       <div className="container-squares">
         <div className="square">

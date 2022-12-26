@@ -5,6 +5,9 @@ export const ButtonWrapper = styled.button`
   padding: 0 2rem;
   border: 0;
   background-color: #ffb742;
+  &:hover {
+    background-color: #f5a526;
+  }
   color: #000;
   font-weight: bold;
   border-radius: 55px;

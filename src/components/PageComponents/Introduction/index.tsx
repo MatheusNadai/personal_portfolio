@@ -22,12 +22,12 @@ export default function Introduction(): JSX.Element {
   return (
     <Container>
       <span>
-        Olá, eu sou o <b id="typing">Matheus de Nadai</b>
+        Hi, I'm <b id="typing">Matheus de Nadai</b>
       </span>
-      <p className="role">FullStack Web Developer & Mobile Developer</p>
+      <p className="role">Tech Lead & FullStack Developer</p>
       <p className="description">
-        Eu projeto e codifico sonhos, transformando-os em realidade,
-        simplesmente amo o que faço
+        I architect and code dreams, turning them into reality, I simply love
+        what I do
       </p>
       <Image
         src="/profile.svg"
@@ -41,21 +41,21 @@ export default function Introduction(): JSX.Element {
             <Image src="/award.svg" alt="icone" width={60} height={60} />
             <div>
               <p>2+</p>
-              <span>Anos de experiência</span>
+              <span>Years of experience</span>
             </div>
           </div>
           <div className="information">
             <Image src="/check.svg" alt="icone" width={60} height={60} />
             <div>
               <p>20+</p>
-              <span>Projetos concluidos</span>
+              <span>Completed projects</span>
             </div>
           </div>
           <div className="information">
             <Image src="/clients.svg" alt="icone" width={60} height={60} />
             <div>
               <p>50+</p>
-              <span>Clientes satisfeitos</span>
+              <span>Satisfied customers</span>
             </div>
           </div>
         </div>

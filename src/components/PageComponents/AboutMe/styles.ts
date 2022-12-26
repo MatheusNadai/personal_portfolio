@@ -7,18 +7,19 @@ export const Container = styled.div`
   flex: 1;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
   gap: 10rem;
   div {
-    /* flex: 1; */
     display: flex;
     flex-direction: column;
+
     span {
       font-size: 1.7rem;
       font-weight: 700;
       margin-bottom: 2rem;
     }
+
     .whoiam {
       height: 1rem;
       width: 10rem;
@@ -38,7 +39,7 @@ export const Container = styled.div`
     }
     p.description-about-me {
       line-height: 2rem;
-      margin-bottom: 5.8rem;
+      margin-bottom: 2rem;
     }
   }
   img {

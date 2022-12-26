@@ -16,17 +16,26 @@ export default function AboutMe(): JSX.Element {
           <div className="whoiam">
             <p>WHO I AM</p>
           </div>
-          <span>Sobre Mim</span>
+          <span>About me</span>
           <p className="description-about-me">
-            Oi! Eu sou Matheus de Nadai, e sou desenvolvedor que tem paixão por
-            construir aplicativos e sistemas web que transforme a vida das
-            pessoas. Gosto do processo de transformar ideias em realidade usando
-            soluções criativas. Estou sempre curioso em aprender novas
-            habilidades, ferramentas e conceitos. Gosto muito de ajudar, por
-            isso me dou tão bem em trabalho em equipe. Acredito que a
-            comunicação é algo essencial para o auto-desenvolvimento.
+            Hey! I'm Matheus de Nadai, and I'm a developer who has a passion for
+            build applications and web systems that transform the lives of
+            people. I enjoy the process of turning ideas into reality using
+            creative solutions. I'm always curious to learn new skills, tools
+            and concepts. I really like helping I do so well in teamwork. I
+            believe that the Communication is essential for self-development.
           </p>
-          <Button style={{ width: '10rem' }}>Fale comigo</Button>
+          <Button
+            onClick={() =>
+              window.open(
+                'https://www.linkedin.com/in/matheus-de-nadai-a63519211/',
+                '_ blank',
+              )
+            }
+            style={{ width: '10rem' }}
+          >
+            Talk to me
+          </Button>
         </div>
       </Slide>
     </Container>

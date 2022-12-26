@@ -32,6 +32,9 @@ export const FooterContainer = styled.footer`
       a {
         margin-bottom: 12px;
         color: #7b7b7b;
+        &:hover {
+          color: #ffb742;
+        }
       }
     }
     .role {
