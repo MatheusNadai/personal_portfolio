@@ -14,7 +14,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 3.5rem auto 2rem auto;
+    margin: 3.5rem auto 0 auto;
   }
   gap: 8rem;
   .content-message {
@@ -88,7 +88,7 @@ export const Container = styled.div`
 export const ContainerAll = styled.div`
   .container-squares-mobile {
     max-width: 1120px;
-    padding: 0 0 0 2rem;
+    padding: 2rem 4rem 0 2rem;
     margin-bottom: 5.5rem;
     display: none;
     grid-template-columns: repeat(5, 1fr);
