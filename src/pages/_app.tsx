@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      {/* <Header /> */}
+      <Header />
       <Component {...pageProps} />
     </ThemeProvider>
   );
