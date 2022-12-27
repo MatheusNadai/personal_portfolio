@@ -20,11 +20,11 @@ export default function AboutMe(): JSX.Element {
           <span>About me</span>
           <p className="description-about-me">
             Hey! I'm Matheus de Nadai, and I'm a developer who has a passion for
-            build applications and web systems that transform the lives of
-            people. I enjoy the process of turning ideas into reality using
-            creative solutions. I'm always curious to learn new skills, tools
-            and concepts. I really like helping I do so well in teamwork. I
-            believe that the Communication is essential for self-development.
+            build applications and web systems that transform people's life. I
+            enjoy the process of turning ideas into reality using creative
+            solutions. I'm always curious to learn new skills, tools and
+            concepts. I really like helping I do so well in teamwork. I believe
+            that the Communication is essential for self-development.
           </p>
           <Button
             onClick={() =>
