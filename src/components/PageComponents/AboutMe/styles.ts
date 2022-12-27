@@ -9,11 +9,19 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  @media (max-width: 1120px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
   gap: 10rem;
   div {
     display: flex;
     flex-direction: column;
-
+    @media (max-width: 1120px) {
+      align-items: center;
+      text-align: center;
+    }
     span {
       font-size: 1.7rem;
       font-weight: 700;

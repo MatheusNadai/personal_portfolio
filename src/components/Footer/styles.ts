@@ -10,6 +10,12 @@ export const FooterContainer = styled.footer`
   section {
     display: flex;
     flex-direction: row;
+    @media (max-width: 1120px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      text-align: center;
+    }
     width: 100%;
     gap: 18rem;
     padding: 4rem 2rem;

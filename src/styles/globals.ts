@@ -25,6 +25,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     background: ${props => props.theme.colors.primary};
     color: ${props => props.theme.colors.white};
+    overflow-x: hidden;
   }
   body::-webkit-scrollbar{
     width: 12px;

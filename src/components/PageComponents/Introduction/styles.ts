@@ -2,13 +2,14 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 1120px;
-  margin: 7.5rem auto 7rem auto;
+  margin: 7.5rem auto 5rem auto;
   padding: 0 2rem;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   span {
     font-size: 1.7rem;
     font-weight: 700;
@@ -36,6 +37,10 @@ export const Container = styled.div`
     align-items: center;
     gap: 2rem;
     margin: 4rem 0;
+    @media (max-width: 1120px) {
+      justify-content: center;
+    }
+    flex-wrap: wrap;
     .information {
       display: flex;
       flex: 1;
@@ -43,6 +48,10 @@ export const Container = styled.div`
       background-color: rgba(0, 0, 0, 0.25);
       border-radius: 10px;
       padding: 1.5rem;
+      min-width: 294px;
+      @media (max-width: 1120px) {
+        max-width: 294px;
+      }
       div {
         display: flex;
         flex: 1;

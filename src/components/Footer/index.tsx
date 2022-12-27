@@ -12,7 +12,7 @@ export default function Footer(): JSX.Element {
           <span>
             <b>Matheus de Nadai</b>
           </span>
-          <p className="role">Tech Lead & FullStack Developer</p>
+          <p className="role">Squad Leader & FullStack Developer</p>
         </div>
         <div className="container_links">
           <span>Useful links</span>
@@ -21,7 +21,7 @@ export default function Footer(): JSX.Element {
           <a href="#skills">Skills</a>
         </div>
         <div className="container_links">
-          <span>Redes sociais</span>
+          <span>Social media</span>
           <a
             href="https://github.com/MatheusNadai"
             target="_blank"

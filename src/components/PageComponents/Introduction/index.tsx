@@ -25,7 +25,7 @@ export default function Introduction(): JSX.Element {
       <span>
         Hi, I'm <b id="typing">Matheus de Nadai</b>
       </span>
-      <p className="role">Tech Lead & FullStack Developer</p>
+      <p className="role">Squad Leader & FullStack Developer</p>
       <p className="description">
         I architect and code dreams, turning them into reality, I simply love
         what I do
